@@ -1,4 +1,4 @@
-# Unit 4 Homework Assignment: A Whale Off the Port(folio)
+# A Whale Off the Port(folio)
 
 ![Portfolio Analysis](Images/portfolio-analysis.png)
 
@@ -70,7 +70,6 @@ Investment managers and their institutional investors look at the return-to-risk
 
 ### Create Custom Portfolio
 
-Harold is ecstatic that you were able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales portfolios. However, now you are wondering whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
 
 1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for your own portfolio.
 
@@ -84,26 +83,5 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 [Pandas API Docs](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
 
----
-
-## Hints
-
-* After reading each CSV file, don't forget to sort each DataFrame in ascending order by the Date using `sort_index`. This is especially important when working with time series data as we want to make sure Date indexes go from earliest to latest.
-
-* The Pandas functions used in class this week will be useful for this assignment.
-
-* Be sure to use `head()` or `tail()` when you want to look at your data but don't want to print to a large DataFrame.
 
 ---
-
-## Submission
-
-1. Create a Jupyter Notebook containing your data preparation, analysis, and visualizations. Put your analysis and answers to the assignment questions in raw text (markdown) cells in the report.
-
-2. Submit your notebook to a new GitHub repository.
-
-3. Add the URL of your GitHub repository to your Assignment when submitting via Bootcamp Spot.
-
----
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
