@@ -1,4 +1,4 @@
-# A Whale Off the Port(folio)
+# Unit 4 Homework Assignment: A Whale Off the Port(folio)
 
 ![Portfolio Analysis](Images/portfolio-analysis.png)
 
@@ -10,7 +10,7 @@ You just learned these quantitative analysis techniques with Python and Pandas, 
 
 You will need to create a tool (an analysis notebook) that analyzes and visualizes the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. You will be given the historical daily returns of several portfolios: some from the firm's algorithmic portfolios, some that represent the portfolios of famous "whale" investors like Warren Buffett, and some from the big hedge and mutual funds. You will then use this analysis to create a custom portfolio of stocks and compare its performance to that of the other portfolios, as well as the larger market (S&P 500).
 
-In this homework assignment, you will be accomplishing three main tasks:
+In this code we accomplish three main tasks:
 
 1. [Read in and Wrangle Returns Data](#Prepare-the-Data)
 2. [Determine Success of Each Portfolio](#Conduct-Quantitative-Analysis)
@@ -18,6 +18,9 @@ In this homework assignment, you will be accomplishing three main tasks:
 
 ---
 
+## Instructions
+
+**File:** [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb)
 
 ### Prepare the Data
 
@@ -67,6 +70,7 @@ Investment managers and their institutional investors look at the return-to-risk
 
 ### Create Custom Portfolio
 
+Harold is ecstatic that you were able to help him prove that the algorithmic trading portfolios are doing so well compared to the market and whales portfolios. However, now you are wondering whether you can choose your own portfolio that performs just as well as the algorithmic portfolios. Investigate by doing the following:
 
 1. Visit [Google Sheets](https://docs.google.com/spreadsheets/) and use the in-built Google Finance function to choose 3-5 stocks for your own portfolio.
 
@@ -79,6 +83,5 @@ Investment managers and their institutional investors look at the return-to-risk
 ## Resources
 
 [Pandas API Docs](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
-
 
 ---
